@@ -1,0 +1,22 @@
+.code {
+  color: #61dafb;
+}
+:global {
+  .default {
+    background: #282c34;
+    .am-button {
+      color: yellow;
+    }
+    //local:{
+    //  .am-button {
+    //  color: yellow;
+    // }
+  }
+}
+.xx {
+  height: 60px;
+}
+
+/*global(.am-button) {
+  color: red
+}*/
